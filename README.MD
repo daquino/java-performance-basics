@@ -8,7 +8,7 @@ https://docs.google.com/presentation/d/1Nv7ez3hl1OukEwcVdVgc0kpMBqjbbgsQuLIpQgrF
 The Java applications in this repository should be used with a tool like
 VisualVM to learn more about the performance aspects of the JVM.
 
-The projects are as follows:
+The projects are as follows:  
 1. file-uploadr - Spring boot application for uploading files.
 
 ## file-uploadr
