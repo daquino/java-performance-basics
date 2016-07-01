@@ -15,7 +15,7 @@ A simple spring boot application for file uploads.  There are two controllers
 used to upload files: a bad one and a good one.  Although this sort of performance
 issue is simple to spot, it still can happen in a production environment.  Check
 out [this Code School blog entry](https://www.codeschool.com/blog/2015/06/04/how-a-bug-in-my-ruby-code-cost-code-school-13000/)
-that cost them $13,000.
+where a bug with file downloading cost them $13,000.
 
 You can build the application using maven via `./mvnw clean package`.  
 Run the application like a normal .jar file: `java -jar file-uploadr-${version}.jar`.  
