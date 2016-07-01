@@ -1,6 +1,6 @@
 # Java Performance Basics
 Set of simple Java applications that are used to illustrate performance issues
-and used in conjunction with the [Java Performanc Basics](
+and used in conjunction with the [Java Performance Basics](
 https://docs.google.com/presentation/d/1Nv7ez3hl1OukEwcVdVgc0kpMBqjbbgsQuLIpQgrFoKk/edit?usp=sharing
 ) presentation.
 
