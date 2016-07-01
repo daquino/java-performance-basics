@@ -19,4 +19,10 @@ where a bug with file downloading cost them $13,000.
 
 You can build the application using maven via `./mvnw clean package`.  
 Run the application like a normal .jar file: `java -jar file-uploadr-${version}.jar`.  
-Be sure to try using different JVM options to
+One thing to try is running the application with a lower max heap size and see the
+effect of using the bad upload vs good upload strategy.
+```
+java -Xmx128M -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=heap.hprof -jar file-uploadr-${version}.jar
+```
+
+The heap dump flags will configure the JVM to save a heap dump on an out of memory error (hint: if you upload a large file, the bad upload causes an out of memory error).
