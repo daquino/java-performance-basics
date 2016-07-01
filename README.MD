@@ -18,7 +18,9 @@ out [this Code School blog entry](https://www.codeschool.com/blog/2015/06/04/how
 where a bug with file downloading cost them $13,000.
 
 You can build the application using maven via `./mvnw clean package`.  
+
 Run the application like a normal .jar file: `java -jar file-uploadr-${version}.jar`.  
+
 One thing to try is running the application with a lower max heap size and see the
 effect of using the bad upload vs good upload strategy.
 ```
