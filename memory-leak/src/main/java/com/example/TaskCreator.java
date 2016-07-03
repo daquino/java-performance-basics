@@ -11,6 +11,10 @@ public class TaskCreator {
         taskList.addTask(new Task());
     }
 
+    public void createMemoryLeakingTask(final String name) {
+        taskList.addTaskWithMemoryLeak(new Task(name));
+    }
+
     public void createTask(final String name) {
         taskList.addTask(new Task(name));
     }

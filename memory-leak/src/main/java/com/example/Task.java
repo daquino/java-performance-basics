@@ -1,7 +1,7 @@
 package com.example;
 
 public class Task {
-    private Object[] data = new Object[10000];
+    private Object[] data = new Object[1000];
     private String name;
 
     public Task() {

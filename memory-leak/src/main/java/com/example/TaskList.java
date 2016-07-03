@@ -6,8 +6,13 @@ import java.util.ArrayDeque;
 public class TaskList {
     private Deque<Task> tasks = new ArrayDeque<>();
 
-    public void addTask(final Task task) {
+    public void addTaskWithMemoryLeak(final Task task) {
         tasks.add(task);
         tasks.peekLast().execute();
+    }
+
+    public void addTask(final Task task) {
+        tasks.add(task);
+        tasks.poll().execute();
     }
 }
