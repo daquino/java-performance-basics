@@ -9,9 +9,17 @@ VisualVM to learn more about the performance aspects of the JVM.
 
 ## Projects
 
-All projects can be built using Maven.  Each project comes with a Maven wrapper script and can be built via `./mvnw clean package`
+All projects can be built using Maven.  Each project comes with a Maven wrapper script that can be used to build the project.
 
-A build of each project should contain an runnable JAR file.  The projects can be ran via `java -jar ${project-version}.jar`
+```
+./mvnw clean package
+```
+
+A build of each project should contain an runnable JAR file.  You can run the project like any other runnable JAR.
+
+```
+java -jar ${project-version}.jar
+```
 
 It is encouraged pass in additional options, such as max heap size, (i.e. -XmxN) when running the project to observe issues around memory performance in each project.  A tool such as VisualVM can provide visualizations into the performance of each application.
 
